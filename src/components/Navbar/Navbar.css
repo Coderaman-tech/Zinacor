@@ -1,0 +1,6 @@
+@media (max-width:1040px) {
+    section{
+        z-index: 1;
+        /* color: #fff; */
+    }
+  }
