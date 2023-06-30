@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import logo from "../../assets/logo.svg"
+import React, { useState } from 'react';
+import {Link}from 'react-router-dom';
+import logo from "../../assets/logo.svg";
 function Navbar() {
   const [icon, setIcon] = useState("menu");
    
@@ -23,17 +24,17 @@ function Navbar() {
                 <div className='nav-links  duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 '>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                         <li>
-                            <a className="hover:text-gray-500" href="#">Home</a>
+                            <Link className="hover:text-gray-500" to="/home">Home</Link>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">Applications</a>
+                            <Link className="hover:text-gray-500" to="/applications">Applications</Link>
                         </li>
                         
                         <li>
-                            <a className="hover:text-gray-500" href="#">Product</a>
+                            <Link className="hover:text-gray-500" to="/products">Products</Link>
                         </li>
                         <li>
-                            <a className="hover:text-gray-500" href="#">Contact</a>
+                            <Link className="hover:text-gray-500" to="/contact">Contact</Link>
                         </li>
                     </ul>
                     

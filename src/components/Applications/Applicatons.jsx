@@ -17,15 +17,15 @@ function Applicatons() {
             <center className=' m-10 text-4xl font-bold'>
                 <h1>More Information</h1>
             </center>
-            <div className="more-info  m-10 flex justify-center items-center gap-10">
-                <div className="item1  text-purple-950"><p className='text-3xl'>Protection for all types of projects</p> <br/>
-                <a href="https://www.zinacor.com/en/applications/"  className='text-1.5xl hover:text-purple-950 text-slate-950 '>Applications</a>
+            <div className="more-info m-30 flex justify-center items-center gap-80 m-20">
+                <div className="item1  text-purple-950"><p className='text-3xl'>Protection for<br/> all types of projects</p> <br/>
+                <a href="https://www.zinacor.com/en/applications/"  className='text-1.5xl hover:text-purple-950 hover:underline hover:text-2xl text-slate-950 '>Applications</a>
                 </div>
-                <div className="item2  text-purple-950"><p className='text-3xl'>The best advertising</p> <br/>
-                <a href="https://www.zinacor.com/en/references/"  className=' text-1.5xl hover:text-purple-950 text-slate-950 '>References</a>
+                <div className="item2  text-purple-950"><p className='text-3xl'>The best<br/>advertising</p> <br/>
+                <a href="https://www.zinacor.com/en/references/"  className=' text-1.5xl hover:text-purple-950 hover:underline hover:text-2xl text-slate-950 '>References</a>
                 </div>
-                <div className="item3  text-purple-950"><p className='text-3xl'>Perfection is also found in the manufacturing process</p> <br/>
-                <a href="https://www.zinacor.com/en/know-how/" className=' text-1.5xl hover:text-purple-950 text-slate-950 '>Metallisation process</a>
+                <div className="item3  text-purple-950"><p className='text-3xl'>Perfection is also<br/>found in the manufacturing process</p> <br/>
+                <a href="https://www.zinacor.com/en/know-how/" className=' text-1.5xl hover:text-purple-950 hover:underline hover:text-2xl text-slate-950 '>Metallisation process</a>
                 </div>
 
             </div>

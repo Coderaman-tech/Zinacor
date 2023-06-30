@@ -11,7 +11,6 @@ function Home() {
         <div className="content">
           <h1>Zinacore</h1>
           <h2>Leader in manufacturing zinc and zinc-aluminium wire</h2>
-          
         </div>
      </section>
     </div>
